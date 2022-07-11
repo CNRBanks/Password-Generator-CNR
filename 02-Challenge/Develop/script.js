@@ -1,15 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
-
-// for (var generateBtn of
-//   document.getElementsByClassName("btn"))
-//   generateBtn.addEventListener("click", howManyChars);
-//   function howManyChars() {
-//      let generateBtn = prompt("Please enter the number of characters that you would like to be used in your password");
-//   }
-
-
 function generatePassword() {
   // 1. Prompt the user for the password criteria
   //   a. password length 8 - 128
@@ -19,8 +10,8 @@ function generatePassword() {
   }
   else {
     //   b. lowercase, uppercase, numbers, special characters
-    var useUpperCase = confirm("Use uper case")
-    var useLowerCase = confirm("use lower case")
+    var useUpperCase = confirm("Use uppercase")
+    var useLowerCase = confirm("use lowercase")
     var useSymbols = confirm("use symbols")
     var useNumbers = confirm("use numbers")
     // 2. Validate the input.
@@ -78,8 +69,12 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-
-
+// for (var generateBtn of
+//   document.getElementsByClassName("btn"))
+//   generateBtn.addEventListener("click", howManyChars);
+//   function howManyChars() {
+//      let generateBtn = prompt("Please enter the number of characters that you would like to be used in your password");
+//   }
 
 // var generateBtn = document.querySelector("#generate");
 
