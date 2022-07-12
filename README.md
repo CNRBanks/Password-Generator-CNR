@@ -11,13 +11,11 @@ Users can click on any of the generate password button shown in the center of th
 
 ## Credits
 
-CSS tutorials from W3Schools https://my-learning.w3schools.com/tutorial/css
-
-HTML tutorials from W3Schools https://my-learning.w3schools.com/tutorial/html
+https://my-learning.w3schools.com/tutorial/js
 
 ## Screenshot
 
-<img title="screenshot" src="assets/images/Preview.png">
+<img title="screenshot" src="assets/preview.png">
  
 ## License
 
@@ -111,19 +109,19 @@ SO THAT I can create a strong password that provides greater security
 GIVEN I need a new, secure password
 
 WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria <!-- DONE -->
+THEN I am presented with a series of prompts for password criteria <DONE>
 
 WHEN prompted for password criteria
-THEN I select which criteria to include in the password <!-- DONE -->
+THEN I select which criteria to include in the password <DONE>
 
 WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters <!-- NOT DONE >
+THEN I choose a length of at least 8 characters and no more than 128 characters <DONE>
 
 WHEN asked for character types to include in the password
 THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters <DONE>
 
 WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+THEN my input should be validated and at least one character type should be selected<DONE?>
 
 WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria<DONE>

@@ -6,7 +6,7 @@ function generatePassword() {
   //   a. password length 8 - 128
   var passwordLength = prompt("Please enter the number of characters that you would like to be used in your password");
   if (passwordLength < 8 || passwordLength > 128) {
-    alert("Invalid")
+    alert("Invalid, please type a length between 8 and 128")
   }
   else {
     //   b. lowercase, uppercase, numbers, special characters
@@ -15,6 +15,10 @@ function generatePassword() {
     var useSymbols = confirm("use symbols")
     var useNumbers = confirm("use numbers")
     // 2. Validate the input.
+    if (!useUpperCase && !useLowerCase && !useSymbols && !useNumbers) {
+      alert("Invalid, please select at least one character type to use!")
+      return "Try again!"
+    }
     var validCharacters = ""
     if (useUpperCase) {
       validCharacters = validCharacters + "abcdefghijklmnopqrstuvxyz".toUpperCase()
