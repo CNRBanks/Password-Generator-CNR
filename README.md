@@ -15,7 +15,7 @@ https://my-learning.w3schools.com/tutorial/js
 
 ## Screenshot
 
-<img title="screenshot" src="assets/preview.png">
+<img title="screenshot" src="Assets/preview.png">
  
 ## License
 
